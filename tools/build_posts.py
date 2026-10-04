@@ -32,9 +32,6 @@ POST_TEMPLATE = """<!doctype html>
     --bg: #fbfaf8; --card: #ffffff; --ink: #20232a; --ink-soft: #5d6169;
     --accent: #2c4a6e; --rule: #dcdcd6;
   }}
-  @media (prefers-color-scheme: dark) {{
-    :root {{ --bg: #16181c; --card: #1d2025; --ink: #e3e2dc; --ink-soft: #999e94;
-             --accent: #8fb0d4; --rule: #2f3236; }}
   }}
   body {{ background: var(--bg); color: var(--ink);
     font-family: "EB Garamond", Garamond, Georgia, serif;
